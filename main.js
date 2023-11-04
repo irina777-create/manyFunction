@@ -32,10 +32,20 @@ const arr2=[54,73,88,67];
 const arr3=[];
 function outside (arr1) {
     function inside (arr2) {
-        return arr1+arr2;
     }
-    result((arr1)+(arr2)=(arr3));
+    console.log(arguments[arr1] + " " + arguments[arr2]);
+
 }
 
 console.log(arr3);
+//Створити функцію, яка прибирає з рядка всі символи, які ми передали другим аргументом.
+// 'func(" hello world", ['l', 'd'])' поверне нам "heo wor". Вихідний рядок та символи для видалення задає користувач.
+
+const str=" hello world", [^, /];
+
+    function (){
+    str = str.replace(/['l','l','l','d', [^, /]);
+    console.log(str);
+};
+
 
