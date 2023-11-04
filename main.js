@@ -41,9 +41,8 @@ console.log(arr3);
 //Створити функцію, яка прибирає з рядка всі символи, які ми передали другим аргументом.
 // 'func(" hello world", ['l', 'd'])' поверне нам "heo wor". Вихідний рядок та символи для видалення задає користувач.
 
-const str=" hello world", [^, /];
 
-    function (){
+    function str (" hello world", [^, /]){
     str = str.replace(/['l','l','l','d', [^, /]);
     console.log(str);
 };
